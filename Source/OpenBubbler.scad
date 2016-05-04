@@ -45,7 +45,7 @@ module OpenBubbler(tubelength,containerradius)
     			hollowcontainer(containerradius);
 			union()
 			{
-				//cube([80,800,80]);
+				cube([80,800,80]);
 				translate([0,containerradius*2.05,containerradius*2.05])
 		rotate([-45,0,0])
 		cylinder(tubelength,9,9,center=true);
@@ -56,4 +56,6 @@ module OpenBubbler(tubelength,containerradius)
 }
 
 OpenBubbler(120,30);
+
+
 
